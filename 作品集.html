@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourName | Game Art Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", "PingFang SC", sans-serif;
+      background-color: #0e0e0e;
+      color: #f1f1f1;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    nav a {
+      color: #aaa;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 0 2rem;
+    }
+    .card {
+      background-color: #1b1b1b;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(255,255,255,0.05);
+      transition: all 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(255,255,255,0.15);
+    }
+    .card img {
+      width: 100%;
+      display: block;
+    }
+    .card p {
+      padding: 1rem;
+      text-align: center;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name — Game Art Portfolio</h1>
+    <p>3D角色 / 场景 / 材质 / 灯光</p >
+  </header>
+
+  <nav>
+    <a href=" ">作品</a >
+    <a href="#about">关于</a >
+    <a href="#contact">联系</a >
+  </nav>
+
+  <section id="works" class="gallery">
+    <!-- ✅ 把下面的三张换成你自己的作品图片与说明 -->
+    <div class="card">
+      < img src="images/work1.jpg" alt="作品1">
+      <p>作品标题 1</p >
+    </div>
+    <div class="card">
+      < img src="images/work2.jpg" alt="作品2">
+      <p>作品标题 2</p >
+    </div>
+    <div class="card">
+      < img src="images/work3.jpg" alt="作品3">
+      <p>作品标题 3</p >
+    </div>
+  </section>
+
+  <section id="about" style="padding:3rem 2rem;text-align:center;">
+    <h2>关于我</h2>
+    <p style="max-width:600px;margin:auto;color:#bbb;">
+      在这里写一句简介，例如：
+      “我是一名专注于游戏美术方向的学生，擅长角色建模与材质表现，作品风格多样。”
+    </p >
+  </section>
+
+  <section id="contact" style="padding:2rem;text-align:center;">
+    <h2>联系</h2>
+    <p>📧 Email: yourname@example.com</p >
+    <p>📷 Artstation / Instagram: @yourhandle</p >
+  </section>
+
+  <footer>
+    © 2025 Your Name | Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
